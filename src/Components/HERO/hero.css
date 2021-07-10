@@ -1,0 +1,100 @@
+.hero-pro-img {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.Profile-info {
+    display: flex;
+
+    
+   
+}
+
+
+.description { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.description div {
+    margin-top: 2rem;
+}
+
+.description a {
+    color:black;
+}
+
+.interactions {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+
+.description > div:nth-child(1) > span {
+   font-size: 2rem;
+   font-weight: bold !important;
+ }
+
+.description > div:nth-child(3) {
+   display: none;
+}
+
+button {
+    margin: 1rem;
+    background-color: #FAFAFA ;
+    border: 1px solid #DBDBDB;
+}
+
+
+
+@media only screen and (min-width:768px) {
+
+
+    .Profile-info {
+        display: flex;
+        align-items: center;
+        margin-left: 8%;
+       
+    }
+
+  .hero-pro-img {
+      width:180px;
+  }
+
+  .description > div:nth-child(1) > span {
+    font-size: 3rem;
+    font-weight: bold !important;
+    
+  }
+    
+
+    .description > div:nth-child(1) {
+    display: flex;
+    
+    }
+
+    .description > div:nth-child(2) {
+       
+    }
+    
+    .description > div:nth-child(3) {
+        display:block;
+        
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:500px) {
+
+    
+
+
+}

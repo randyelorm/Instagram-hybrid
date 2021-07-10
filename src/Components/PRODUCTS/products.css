@@ -1,0 +1,100 @@
+.hr-breaker {
+    background-color:black
+}
+
+.products {
+    padding-left:5rem !important;
+    padding-right:5rem !important;
+   margin: 3rem;
+}
+
+.products > div {
+   display: flex;
+   justify-content: center;
+ 
+}
+
+.products > div > * {
+    width:  80%;
+}
+
+.thumbnail {
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+  
+    
+    
+}
+
+.col-sm-4 {
+    padding: 0.5rem !important;
+
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.btn {
+   
+    font-size: 10px;
+    margin: 0.2rem;
+
+
+}
+
+.caption {
+    padding:0rem !important;
+}
+.btn-default {
+    font-size: 10px;
+    padding:0.2rem !important
+}
+
+ 
+
+
+
+h1 {
+    font-size: 2rem;
+    display: inline;
+    padding-right: 1rem !important;
+    color:black;
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:768px) {
+
+
+    .hr-breaker {
+        background-color:black
+    }
+
+
+    .btn-default {
+        font-size: 10px;
+        padding:0.6rem !important
+    }
+    
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:500px) {
+
+    
+
+
+}

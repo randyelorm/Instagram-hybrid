@@ -1,0 +1,107 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FAFAFA;  
+        max-width: 100%;
+        overflow-x: hidden;  
+    
+   
+    
+}
+
+html {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;  
+
+}
+
+
+
+.search-input {
+    display:none
+}
+
+.nav-box {
+    border-bottom: 1px solid #DBDBDB;
+  
+   
+}
+
+.mynav-items {
+  
+ 
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:1.5rem;
+    
+}
+
+.logo {
+    font-family: 'Rancho', cursive;
+    font-size: 3rem;
+    color:black !important
+ 
+}
+
+.logo:hover {
+    text-decoration: none;
+ 
+}
+
+.nav-profile-img {
+    width: 20px;
+    border-radius: 50px;
+}
+
+.right-links a {
+  
+    padding-left: 1rem;
+    padding-right:1rem;
+    padding-bottom: 0rem;
+    font-size: 2rem;
+    color:black;
+    
+}
+
+.right-links a:hover {
+  
+   text-decoration: none;
+    
+}
+
+
+
+
+
+@media only screen and (min-width:768px) {
+
+    .logo {
+        font-family: 'Rancho', cursive;
+        font-size: 3rem;
+    }
+
+    
+
+
+}
+
+
+
+@media only screen and (min-width:500px) {
+
+    .search-input {
+        display:block;
+        background-color: #FAFAFA;
+        border: 1px solid #DBDBDB;
+        outline:none;
+    }
+
+
+}
