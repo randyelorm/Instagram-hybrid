@@ -55,6 +55,10 @@ const Main = () => {
       
             
           </div>
+
+          <h4>Built in React by:</h4>
+   <h4> <a href="https://www.linkedin.com/in/randy-davoh-820642171/"> Randy Davoh <i className ="fab fa-linkedin"></i> </a> </h4> 
+   <h4> <a href="https://twitter.com/randydavoh">@randydavoh<i className ="fab fa-twitter"></i> </a> </h4> 
         </div>
     );
 }
